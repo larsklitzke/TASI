@@ -24,6 +24,9 @@ The base package `tasi` only depends on `numpy` and `pandas`. Optional features 
 `tasi[io,geo]` provides the models and safety metrics (e.g. `tasi.smos.PET`) without plotting or download
 dependencies.
 
+For coding agents and IDEs, the package ships type hints (`py.typed`) and a compact overview of all public
+classes and functions in [`src/tasi/API.md`](src/tasi/API.md), installed as `site-packages/tasi/API.md`.
+
 Download the latest DLR-UT version for demonstration purpose.
 ```python
 from tasi.dlr import DLRUTDatasetManager, DLRUTVersion, 
